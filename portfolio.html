@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Daytona Software Developer | Brendan Tackney </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+
+
+    <link rel="icon"
+          type="image/png"
+          href="./images/ttt.ico" alt=""
+    />
+
+    <link href="animate.css" rel="stylesheet" type="text/css"/>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="functions.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body style="background-color:#0a1940;margin-left:5%; margin-right:5%; margin-top:5%;">
+
+
+
+<div style="margin-left:5%; margin-right:5%; margin-top:5%;">
+
+
+
+    <div class="row no-gutter">
+        <div class="col-lg-4" style="background-color:#f41948" onmouseover="zoomOff()">
+            <br>
+            <h1 class="flexStyle">Websites</h1>
+            <div style="padding:5%; text-align:center;">
+                <i style="color:white;" class="fa fa-globe fa-5x"></i>
+            </div>
+        </div>
+        <div class="col-lg-8"  style="background-color:white;">
+
+
+            <!-- website1 start-->
+            <div class="row" style="" id="ws1">
+                <div class="col-lg-6 zoomPic" onmouseover="zoomIn();">
+                    <div id="zoomIcon" style="position:absolute; top:10%; right:10%; display:none;" data-toggle="modal" data-target="#zoomPic">
+                        <i style="color: #f41948" class="fa fa-search fa-3x" aria-hidden="true"></i>
+                    </div>
+                    <img class="webPic" src="images/webDesignSEOSalon.png" style="width:100%;"/>
+                </div>
+                <div class="col-lg-6" style="padding-left:5%; padding-right:5%;" onmouseover="zoomOff()">
+                    <br>
+                    <br>
+                    <h2>RJC Studio</h2>
+                    <br>
+                    <h4>Animated SEO website with custom book now form. Made with HTML5, CSS3, Javascript, Bootstrap, PHP and Javascript animation libraries </h4>
+                    <a href="http://askdesigns.biz/salon/">www.rjcstudifolorida.com</a>
+
+                    <div style="float:right; padding-right:10%;">
+                        <a href="websites2.html"><i class="fa fa-angle-double-right fa-3x animated infinite flash"></i></a>
+                    </div>
+                </div>
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="zoomPic" tabindex="-1" role="dialog" aria-labelledby="zoomPicTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="images/webDesignSEOSalon.png" style="width:700px; height:auto;"/>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- website1 end -->
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+<div style="padding-left:5%;padding-top:4%;" onclick="info();"><i style="color:blue;" class="fa fa-info-circle" aria-hidden="true"></i></div>
+<a href="pp.html"><i style="color:white; float:left;" class="fa fa-angle-left fa-5x"></i></a>
+
+
+
+
+<br>
+
+
+
+
+<footer style="padding-top: 10%; text-align:center;" >
+    <span style="text-align:center; color:white;">&#169; copyright 2018 <a href="https://www.askdesigns.biz">askdesigns</a> | designed and developed by Amanda Krummel</span>
+</footer>
+
+
+<script>
+    function info(){
+        alert(" '<' is a back button to return to the home page");
+    }
+
+
+    function zoomIn(){
+        document.getElementById("zoomIcon").style.display = "block";
+    }
+
+    function zoomOff(){
+        document.getElementById("zoomIcon").style.display = "none";
+    }
+
+
+</script>
+
+
+
+
+</body>
+</html>
